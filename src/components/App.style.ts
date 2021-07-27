@@ -5,11 +5,8 @@ export const Wrapper = styled.div`
   height: 100vh;
   flex-direction: column;
   align-items: center;
-  font-family: Roboto, sans-serif;
   font-size: 32px;
-  p { 
-    margin: 0;
-  }
+  p { margin: 0 }
 `;
 
 export const rotate = keyframes`
@@ -18,7 +15,7 @@ export const rotate = keyframes`
 `;
 
 export const Image = styled.img.attrs({ alt: '' })`
-  height: min(50vh, 50vw);
+  height: 50rem;
   animation: ${rotate} 7s infinite linear;
   user-select: none;
 `;
