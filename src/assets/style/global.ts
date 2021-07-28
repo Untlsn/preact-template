@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     margin: 0;
     min-height: 100vh;
+    background-color: #f0fafb;
   }
   a {
     color: inherit;
